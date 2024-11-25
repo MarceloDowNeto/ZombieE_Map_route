@@ -1,0 +1,33 @@
+from random import randint
+
+#Contastes da tela
+LARGURA =960
+ALTURA = 720
+PRETO = (0,0,0)
+MARROM = (139, 69, 19)
+CINZA = (200,200,200)
+DOURADO = (255, 215, 0)
+
+
+#Constantes personagem
+POSICAO_PERSONAGEM = LARGURA/2, 500
+VIDAS_PERSONAGEM = 5
+TAMANHO_PERSONAGEM = 5
+VELOCIDADE_PERSONAGEM = 10
+MAXIMO_VIDAS_PERSONAGEM = 10
+
+#Constantes Zumbi
+TAMANHO_ZUMBI = 5
+VELOCIDADE_ZUMBI = 5
+
+#Constantes Fantasma
+TAMANHO_FANTASMA = 3
+VELOCIDADE_FANTASMA = 15
+COOLDOWN_FANTASMA = 500
+
+#Constantes Obstaculos
+TAMANHO_OBSTACULO = 50
+
+#Chave
+X_CHAVE = randint(40, 600)
+Y_CHAVE = randint(50, 430)
